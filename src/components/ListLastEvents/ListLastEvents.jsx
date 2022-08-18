@@ -7,7 +7,7 @@ export default function ListLastEvents() {
     <div className="container-list-last-events">
       <Header size="large">Últimos eventos</Header>
 
-      <Container>
+      <Container bg="Light">
         <Card.Group itemsPerRow={5}>
           <p>eventos...</p>
           <p>eventos...</p>
