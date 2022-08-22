@@ -4,7 +4,7 @@ import "./LastEvents.scss";
 export default function LastEvents({lastEventsFetch}) {
   const { loading, result } = lastEventsFetch;
 
-  if ( loading, !result ) return (<Dimmer active inverted>
+  if ( loading || !result ) return (<Dimmer active inverted>
     <Loader inverted>Loading...</Loader>
   </Dimmer>);
 
