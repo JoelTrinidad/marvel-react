@@ -20,7 +20,7 @@ export default function Comics() {
         <Grid.Column>
           <Container bg="Light">
             <Header as="h2">Los mejores Cómics</Header>
-            <ListComics listComics={listComics} />
+            <ListComics listComics={listComics} renderComics={renderComics} setRenderComics={setRenderComics} />
           </Container>
         </Grid.Column>
       </Grid>
